@@ -1,0 +1,42 @@
+$gray: #999999;
+$gray-100: #d9d9d9;
+$pink: #E73959;
+
+@mixin widthHeight($width){
+    width: $width;
+    height: 2.70rem;
+}
+
+*{
+   font-family: "Inter", sans-serif;;
+}
+.layout-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.25rem;
+    flex-direction: column;
+}
+
+.sending{
+    width: 20rem;
+    height: 14rem;
+    margin-bottom: 8px
+}
+
+p{
+    margin: 0px 0px 25px 0px;
+    color: $gray;
+}
+
+.btn-form{
+    @include widthHeight(23rem);
+    color: $gray;
+    background-color: $gray-100;
+    border: none;
+    border-radius: 10px;
+    &:hover{
+        cursor: pointer;
+    }
+}

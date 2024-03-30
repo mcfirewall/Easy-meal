@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.layout-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.25rem;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.cont-input {
+  position: relative;
+  display: inline-block;
+}
+.cont-input .img-input {
+  position: absolute;
+  left: 8px;
+  top: 15px;
+  pointer-events: none;
+}
+.cont-input input {
+  padding-left: 30px;
+  border: 1px solid #dedee6;
+  border-radius: 6px;
+  width: 21rem;
+  height: 2.7rem;
+  outline: none;
+  background: transparent;
+}
+.cont-input input::-moz-placeholder {
+  color: #dedee6;
+}
+.cont-input input::placeholder {
+  color: #dedee6;
+}
+
+.btn-form {
+  width: 23rem;
+  height: 2.7rem;
+  color: white;
+  background-color: #E73959;
+  border: none;
+  border-radius: 10px;
+}
+
+.checkbox {
+  color: #BDBDBD;
+}
+.checkbox input[type=checkbox] {
+  border: 1px solid #E73959;
+}
+
+.span1 {
+  color: #999999;
+}
+
+.span2 {
+  color: #E73959;
+}/*# sourceMappingURL=SignIn.css.map */

@@ -1,0 +1,16 @@
+.upside{
+    height: 5.438rem;
+    display: flex;
+    background-image: url(../.../../assets/barra.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin-bottom: 4.56rem;
+    .cont-upside{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0px 2.2rem 6.25rem;
+    }
+
+}

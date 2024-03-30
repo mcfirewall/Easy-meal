@@ -1,0 +1,14 @@
+.upside {
+  height: 4rem;
+  display: flex;
+  background-image: url(../.../../assets/barra.svg);
+  background-size: cover;
+  background-position: center;
+}
+.upside .cont-upside {
+  margin-left: 3.5rem;
+}
+.upside .Easy {
+  font-size: 18px;
+  margin-left: 0.6rem;
+}/*# sourceMappingURL=Upside.css.map */
